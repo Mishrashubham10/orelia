@@ -58,9 +58,9 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold mb-1">Address</h3>
                     <p className="text-sm text-muted-foreground">
-                      123 Beauty Lane
+                      Unit E-611 Crystal Plaza, Linkroad
                       <br />
-                      New York, NY 10001
+                      Infinity Mall, Andheri, Mumbai
                     </p>
                   </div>
                 </div>
