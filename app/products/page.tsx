@@ -1,3 +1,5 @@
+"use client";
+
 import ProductsClient from '@/components/ProductsClient';
 import { Suspense } from 'react';
 

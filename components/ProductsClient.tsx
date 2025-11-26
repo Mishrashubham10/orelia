@@ -75,9 +75,7 @@ const ProductsClient = () => {
         {/* Products Grid */}
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {filteredProducts.map((product) => (
-            <Link href={`/products/${product.id}`} key={product.id}>
-              <ProductCard key={product.id} product={product} />
-            </Link>
+            <ProductCard key={product.id} product={product} />
           ))}
         </div>
 

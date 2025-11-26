@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import { Mail, Phone, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -19,8 +19,8 @@ const Contact = () => {
             Get in Touch
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Have a question? We&apos;d love to hear from you. Send us a message and
-            we&apos;ll respond as soon as possible.
+            Have a question? We&apos;d love to hear from you. Send us a message
+            and we&apos;ll respond as soon as possible.
           </p>
         </div>
 
@@ -28,15 +28,15 @@ const Contact = () => {
           {/* Contact Info */}
           <div className="space-y-6">
             <Card>
-              <CardContent className="p-6 space-y-4">
+              <CardContent className="p-2 space-y-4">
                 <div className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
                     <Mail className="h-5 w-5 text-primary" />
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Email</h3>
-                    <p className="text-sm text-muted-foreground">
-                      hello@orelia.com
+                    <p className="text-xs text-muted-foreground wrap-break-word max-w-full">
+                      oreliacosmeticswholesalepvtltd@gmail.com
                     </p>
                   </div>
                 </div>
