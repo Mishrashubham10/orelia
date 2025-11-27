@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import { Trash2, Minus, Plus, ShoppingBag } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -6,8 +6,12 @@ import { Card, CardContent } from '@/components/ui/card';
 import Image from 'next/image';
 import { useCart } from '@/context/CartContext';
 import Link from 'next/link';
+import { useState } from 'react';
+import PopupCheckout from '@/components/PopupCheckout';
 
 const Cart = () => {
+  const [isProcessing, setIsProcessing] = useState(false);
+  const [open, setOpen] = useState(false);
   const { cart, removeFromCart, updateQuantity, getCartTotal, clearCart } =
     useCart();
 
@@ -26,6 +30,11 @@ const Cart = () => {
         </Link>
       </div>
     );
+  }
+
+  function handleCheckout() {
+    setIsProcessing(true);
+    setOpen(true);
   }
 
   return (
@@ -133,10 +142,23 @@ const Cart = () => {
                     </div>
                   </div>
                 </div>
-                <Button size="lg" className="w-full">
-                  Proceed to Checkout
+                <Button
+                  size="lg"
+                  className="w-full"
+                  onClick={handleCheckout}
+                  disabled={isProcessing}
+                >
+                  {isProcessing ? 'Processing...' : 'Proceed to Checkout'}
                 </Button>
-                <Link href="/shop" className="block">
+                <PopupCheckout
+                  open={open}
+                  setOpen={setOpen}
+                  onClose={clearCart}
+                  title="Order Successful!"
+                  description="Thank you for shopping with us. Your order has been placed and
+              will be delivered soon!"
+                />
+                <Link href="/products" className="block">
                   <Button variant="outline" className="w-full">
                     Continue Shopping
                   </Button>
