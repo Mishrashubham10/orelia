@@ -15,7 +15,7 @@ const Home = () => {
         <div
           className="absolute inset-0 opacity-20"
           style={{
-            backgroundImage: `url(${heroBg})`,
+            backgroundImage: `url(${heroBg.src})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
