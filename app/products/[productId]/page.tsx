@@ -7,6 +7,7 @@ import { toast } from 'sonner';
 import { useCart } from '@/context/CartContext';
 import { products } from '@/data/product';
 import Image from 'next/image';
+import { ReviewCard } from '@/components/Review';
 
 const ProductDetail = () => {
   const { productId } = useParams<{ productId: string }>();
@@ -36,11 +37,7 @@ const ProductDetail = () => {
 
   return (
     <div className="container mx-auto px-4 py-12">
-      <Button
-        variant="ghost"
-        onClick={() => router.back()}
-        className="mb-8"
-      >
+      <Button variant="ghost" onClick={() => router.back()} className="mb-8">
         <ArrowLeft className="mr-2 h-4 w-4" />
         Back to Shop
       </Button>
@@ -52,6 +49,7 @@ const ProductDetail = () => {
             src={product.image}
             alt={product.name}
             className="h-full w-full object-cover"
+            fill
           />
         </div>
 
@@ -111,6 +109,26 @@ const ProductDetail = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <ReviewCard
+          title="Amazing Quality!"
+          description="The texture and finish are absolutely luxurious. Feels like a high-end brand."
+          image={product.image}
+        />
+
+        <ReviewCard
+          title="Worth Every Rupee"
+          description="Packaging, fragrance, and results — everything exceeded my expectations."
+          image={product.image}
+        />
+
+        <ReviewCard
+          title="Perfect for Daily Use"
+          description="Lightweight, non-greasy, and works beautifully even on sensitive skin."
+          image={product.image}
+        />
       </div>
     </div>
   );

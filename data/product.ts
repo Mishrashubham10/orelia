@@ -11,11 +11,10 @@ import PerfumeImg from '@/assets/products/perfume-1.jpeg';
 import EyeCreamImg from '@/assets/products/eye-cream.jpeg';
 
 export const products: Product[] = [
-  // ---- Added 22 more cosmetics with dynamic Pexels images ----
   {
     id: '1',
     name: 'Radiant Glow Serum',
-    price: 399,
+    price: 1499,
     image: SerumImg,
     category: 'Skincare',
     description: 'Luxurious vitamin C serum for luminous, youthful skin',
@@ -23,7 +22,7 @@ export const products: Product[] = [
   {
     id: '2',
     name: 'Rose Velvet Lipstick',
-    price: 399,
+    price: 1299,
     image: LipsticImg,
     category: 'Makeup',
     description: 'Creamy, long-lasting lipstick in a sophisticated rose shade',
@@ -31,7 +30,7 @@ export const products: Product[] = [
   {
     id: '3',
     name: 'Hydrating Night Cream',
-    price: 299,
+    price: 1799,
     image: CreamImg,
     category: 'Skincare',
     description: 'Rich, nourishing night cream for deep hydration',
@@ -39,7 +38,7 @@ export const products: Product[] = [
   {
     id: '4',
     name: 'Golden Hour Highlighter',
-    price: 459,
+    price: 1399,
     image: HighlighterImg,
     category: 'Makeup',
     description: 'Luminous highlighting powder for a radiant glow',
@@ -47,7 +46,7 @@ export const products: Product[] = [
   {
     id: '5',
     name: 'Gentle Cleansing Oil',
-    price: 380,
+    price: 1299,
     image: CleanserImg,
     category: 'Skincare',
     description: 'Luxurious oil cleanser that melts away makeup',
@@ -55,7 +54,7 @@ export const products: Product[] = [
   {
     id: '6',
     name: 'Velvet Matte Foundation',
-    price: 529,
+    price: 1899,
     image: FoundationImg,
     category: 'Makeup',
     description: 'Flawless, long-wearing foundation with a velvety finish',
@@ -63,7 +62,7 @@ export const products: Product[] = [
   {
     id: '7',
     name: 'Bloom Eau de Parfum',
-    price: 599,
+    price: 2599,
     image: PerfumeImg,
     category: 'Fragrance',
     description: 'Elegant floral fragrance with notes of rose and jasmine',
@@ -71,15 +70,16 @@ export const products: Product[] = [
   {
     id: '8',
     name: 'Eye Revival Cream',
-    price: 399,
+    price: 1399,
     image: EyeCreamImg,
     category: 'Skincare',
     description: 'Targeted treatment for bright, youthful-looking eyes',
   },
+
   {
     id: '9',
     name: 'Cocoa Velvet Body Polish',
-    price: 540,
+    price: 1199,
     image: 'https://images.pexels.com/photos/6621466/pexels-photo-6621466.jpeg',
     category: 'Skincare',
     description: 'Gentle exfoliating polish with cocoa husk and shea butter.',
@@ -87,7 +87,7 @@ export const products: Product[] = [
   {
     id: '10',
     name: 'InkPoint Precision Liner',
-    price: 330,
+    price: 999,
     image: 'https://images.pexels.com/photos/7256089/pexels-photo-7256089.jpeg',
     category: 'Makeup',
     description:
@@ -96,7 +96,7 @@ export const products: Product[] = [
   {
     id: '11',
     name: 'CitrusRush Body Cologne',
-    price: 470,
+    price: 2299,
     image: 'https://images.pexels.com/photos/965992/pexels-photo-965992.jpeg',
     category: 'Fragrance',
     description:
@@ -105,15 +105,16 @@ export const products: Product[] = [
   {
     id: '12',
     name: 'GlowRoot Hair Elixir',
-    price: 520,
+    price: 1599,
     image: 'https://images.pexels.com/photos/3997378/pexels-photo-3997378.jpeg',
     category: 'Skincare',
     description: 'Nutrient-rich elixir that strengthens hair from root to tip.',
   },
+
   {
     id: '13',
     name: 'BlushPebble Cheek Tint',
-    price: 299,
+    price: 1099,
     image: 'https://images.pexels.com/photos/7290210/pexels-photo-7290210.jpeg',
     category: 'Makeup',
     description: 'Natural cheek tint with a smooth, watercolor-like finish.',
@@ -121,7 +122,7 @@ export const products: Product[] = [
   {
     id: '14',
     name: 'FreshLavender Pulse Mist',
-    price: 260,
+    price: 1999,
     image: 'https://images.pexels.com/photos/965989/pexels-photo-965989.jpeg',
     category: 'Fragrance',
     description: 'A soft lavender mist designed for instant relaxation.',
@@ -129,7 +130,7 @@ export const products: Product[] = [
   {
     id: '15',
     name: 'NourishBerry Lip Mask',
-    price: 240,
+    price: 799,
     image: 'https://images.pexels.com/photos/3997376/pexels-photo-3997376.jpeg',
     category: 'Skincare',
     description:
@@ -138,16 +139,18 @@ export const products: Product[] = [
   {
     id: '16',
     name: 'AquaMatte Foundation Fluid',
-    price: 550,
-    image: 'https://images.pexels.com/photos/15327092/pexels-photo-15327092.jpeg',
+    price: 1899,
+    image:
+      'https://images.pexels.com/photos/15327092/pexels-photo-15327092.jpeg',
     category: 'Makeup',
     description:
       'Breathable foundation offering matte coverage with hydration.',
   },
+
   {
     id: '17',
     name: 'SakuraDream Breeze Perfume',
-    price: 690,
+    price: 2799,
     image: 'https://images.pexels.com/photos/965991/pexels-photo-965991.jpeg',
     category: 'Fragrance',
     description: 'A spring-inspired perfume with cherry blossom and vanilla.',
@@ -155,7 +158,7 @@ export const products: Product[] = [
   {
     id: '18',
     name: 'OceanMineral Face Cleanser',
-    price: 340,
+    price: 999,
     image: 'https://images.pexels.com/photos/6621462/pexels-photo-6621462.jpeg',
     category: 'Skincare',
     description: 'Purifying gel cleanser with deep-sea mineral extracts.',
@@ -163,7 +166,7 @@ export const products: Product[] = [
   {
     id: '19',
     name: 'GoldenRay Illuminating Drops',
-    price: 480,
+    price: 1499,
     image: 'https://images.pexels.com/photos/1340925/pexels-photo-1340925.jpeg',
     category: 'Makeup',
     description: 'Liquid illumination drops for a radiant golden glow.',
@@ -171,15 +174,16 @@ export const products: Product[] = [
   {
     id: '20',
     name: 'MidnightCedar Cologne',
-    price: 720,
+    price: 2999,
     image: 'https://images.pexels.com/photos/932577/pexels-photo-932577.jpeg',
     category: 'Fragrance',
     description: 'Bold cologne with cedarwood and subtle smoky undertones.',
   },
+
   {
     id: '21',
     name: 'VitaminBurst Skin Oil',
-    price: 390,
+    price: 1399,
     image: 'https://images.pexels.com/photos/6621464/pexels-photo-6621464.jpeg',
     category: 'Skincare',
     description: 'Skin-reviving oil powered by vitamins A, C, and E.',
@@ -187,15 +191,16 @@ export const products: Product[] = [
   {
     id: '22',
     name: 'ShadowMuse Palette',
-    price: 620,
+    price: 2199,
     image: 'https://images.pexels.com/photos/1340925/pexels-photo-1340925.jpeg',
     category: 'Makeup',
     description: '12-shade palette featuring smokey, metallic and matte tones.',
   },
+
   {
     id: '23',
     name: 'VelvetBloom Eau Fresh',
-    price: 560,
+    price: 2299,
     image: 'https://images.pexels.com/photos/965989/pexels-photo-965989.jpeg',
     category: 'Fragrance',
     description: 'Soft floral scent with light airy undertones.',
@@ -203,7 +208,7 @@ export const products: Product[] = [
   {
     id: '24',
     name: 'PureShea Body Cream',
-    price: 480,
+    price: 1199,
     image: 'https://images.pexels.com/photos/6621466/pexels-photo-6621466.jpeg',
     category: 'Skincare',
     description: 'Thick nourishing body cream enriched with pure shea.',
@@ -211,15 +216,16 @@ export const products: Product[] = [
   {
     id: '25',
     name: 'LashBloom Lengthening Gel',
-    price: 320,
+    price: 1099,
     image: 'https://images.pexels.com/photos/5128262/pexels-photo-5128262.jpeg',
     category: 'Makeup',
     description: 'Gel-based mascara formulated for extended lash length.',
   },
+
   {
     id: '26',
     name: 'HerbalMist Balancing Toner',
-    price: 310,
+    price: 899,
     image: 'https://images.pexels.com/photos/3737581/pexels-photo-3737581.jpeg',
     category: 'Skincare',
     description: 'Clarifying toner with herbal leaf extracts.',
@@ -227,7 +233,7 @@ export const products: Product[] = [
   {
     id: '27',
     name: 'SeaMist Cologne Splash',
-    price: 510,
+    price: 2399,
     image: 'https://images.pexels.com/photos/932577/pexels-photo-932577.jpeg',
     category: 'Fragrance',
     description: 'Watery marine cologne with breezy freshness.',
@@ -235,16 +241,17 @@ export const products: Product[] = [
   {
     id: '28',
     name: 'CoralTouch Lip Gloss',
-    price: 260,
+    price: 999,
     image:
       'https://images.pexels.com/photos/27462666/pexels-photo-27462666.jpeg',
     category: 'Makeup',
     description: 'Translucent gloss with a coral tint and mirror shine.',
   },
+
   {
     id: '29',
     name: 'PeptideLift Day Cream',
-    price: 580,
+    price: 1799,
     image: 'https://images.pexels.com/photos/6621465/pexels-photo-6621465.jpeg',
     category: 'Skincare',
     description:
@@ -253,15 +260,16 @@ export const products: Product[] = [
   {
     id: '30',
     name: 'FloralAmour Fine Spray',
-    price: 590,
+    price: 2199,
     image: 'https://images.pexels.com/photos/965989/pexels-photo-965989.jpeg',
     category: 'Fragrance',
     description: 'Romantic floral mist with a hint of peony sweetness.',
   },
+
   {
     id: '31',
     name: 'HydraSilk Face Gel',
-    price: 330,
+    price: 1199,
     image: 'https://images.pexels.com/photos/6621470/pexels-photo-6621470.jpeg',
     category: 'Skincare',
     description: 'Cooling gel moisturizer delivering a silky dew-like finish.',
@@ -269,15 +277,16 @@ export const products: Product[] = [
   {
     id: '32',
     name: 'InkGlow Brow Pomade',
-    price: 410,
+    price: 1099,
     image: 'https://images.pexels.com/photos/7256089/pexels-photo-7256089.jpeg',
     category: 'Makeup',
     description: 'High-hold brow pomade providing shape and tint.',
   },
+
   {
     id: '33',
     name: 'AmberWhisper Perfume Mist',
-    price: 640,
+    price: 2599,
     image: 'https://images.pexels.com/photos/965993/pexels-photo-965993.jpeg',
     category: 'Fragrance',
     description: 'A blend of warm amber with soft vanilla undertones.',
@@ -285,15 +294,16 @@ export const products: Product[] = [
   {
     id: '34',
     name: 'BotaniGlow Sleeping Mask',
-    price: 475,
+    price: 1599,
     image: 'https://images.pexels.com/photos/3737583/pexels-photo-3737583.jpeg',
     category: 'Skincare',
     description: 'Overnight mask infused with botanical brightening extracts.',
   },
+
   {
     id: '35',
     name: 'SilkWhip Makeup Base',
-    price: 390,
+    price: 1299,
     image: 'https://images.pexels.com/photos/1340925/pexels-photo-1340925.jpeg',
     category: 'Makeup',
     description: 'Whipped texture base providing a smooth silk-like finish.',
@@ -301,15 +311,16 @@ export const products: Product[] = [
   {
     id: '36',
     name: 'CedarDust Parfum',
-    price: 710,
+    price: 2999,
     image: 'https://images.pexels.com/photos/965992/pexels-photo-965992.jpeg',
     category: 'Fragrance',
     description: 'Deep woody scent created from aged cedar and musk.',
   },
+
   {
     id: '37',
     name: 'LotusHydrate Gel Toner',
-    price: 340,
+    price: 999,
     image: 'https://images.pexels.com/photos/6621463/pexels-photo-6621463.jpeg',
     category: 'Skincare',
     description: 'Weightless gel toner offering moisture balance.',
@@ -317,15 +328,16 @@ export const products: Product[] = [
   {
     id: '38',
     name: 'VelvetSkin Concealer Wand',
-    price: 315,
+    price: 1099,
     image: 'https://images.pexels.com/photos/4664525/pexels-photo-4664525.jpeg',
     category: 'Makeup',
     description: 'Smooth concealer wand providing seamless coverage.',
   },
+
   {
     id: '39',
     name: 'FreshCitrus Body Dew',
-    price: 440,
+    price: 1999,
     image: 'https://images.pexels.com/photos/965991/pexels-photo-965991.jpeg',
     category: 'Fragrance',
     description: 'Light body fragrance with zesty citrus notes.',
@@ -333,15 +345,16 @@ export const products: Product[] = [
   {
     id: '40',
     name: 'BerryCloud Cleansing Foam',
-    price: 290,
+    price: 799,
     image: 'https://images.pexels.com/photos/6621464/pexels-photo-6621464.jpeg',
     category: 'Skincare',
     description: 'Air-light foam cleanser infused with berry enzymes.',
   },
+
   {
     id: '41',
     name: 'ChromaTint Lip Stain',
-    price: 350,
+    price: 1299,
     image:
       'https://images.pexels.com/photos/27462666/pexels-photo-27462666.jpeg',
     category: 'Makeup',
@@ -350,15 +363,16 @@ export const products: Product[] = [
   {
     id: '42',
     name: 'GardenBreeze Scent Oil',
-    price: 620,
+    price: 2599,
     image: 'https://images.pexels.com/photos/932577/pexels-photo-932577.jpeg',
     category: 'Fragrance',
     description: 'Fresh scent oil with garden herbs and soft floral notes.',
   },
+
   {
     id: '43',
     name: 'HydraBalance Serum Gel',
-    price: 380,
+    price: 1299,
     image: 'https://images.pexels.com/photos/3737581/pexels-photo-3737581.jpeg',
     category: 'Skincare',
     description: 'Cooling serum gel designed for hydration balance.',
@@ -366,15 +380,16 @@ export const products: Product[] = [
   {
     id: '44',
     name: 'MatteBlur Compact',
-    price: 355,
+    price: 1299,
     image: 'https://images.pexels.com/photos/7290089/pexels-photo-7290089.jpeg',
     category: 'Makeup',
     description: 'Compact pressed powder offering matte blurring effect.',
   },
+
   {
     id: '45',
     name: 'RoseHill Elegant Perfume',
-    price: 780,
+    price: 2999,
     image: 'https://images.pexels.com/photos/965989/pexels-photo-965989.jpeg',
     category: 'Fragrance',
     description: 'Elegant rose blend with soft warm accents.',
@@ -382,15 +397,16 @@ export const products: Product[] = [
   {
     id: '46',
     name: 'MoistureSilk Body Lotion',
-    price: 330,
+    price: 999,
     image: 'https://images.pexels.com/photos/6621466/pexels-photo-6621466.jpeg',
     category: 'Skincare',
     description: 'Silkening body lotion delivering long-lasting hydration.',
   },
+
   {
     id: '47',
     name: 'InkMatte Liquid Eyeliner',
-    price: 280,
+    price: 999,
     image: 'https://images.pexels.com/photos/7256089/pexels-photo-7256089.jpeg',
     category: 'Makeup',
     description: 'Deep matte liquid eyeliner with precision flow tip.',
@@ -398,15 +414,16 @@ export const products: Product[] = [
   {
     id: '48',
     name: 'VanillaTwist Body Essence',
-    price: 540,
+    price: 2199,
     image: 'https://images.pexels.com/photos/965991/pexels-photo-965991.jpeg',
     category: 'Fragrance',
     description: 'Warm vanilla-infused body essence with a subtle twist.',
   },
+
   {
     id: '49',
     name: 'SnowMint Cooling Gel',
-    price: 300,
+    price: 799,
     image: 'https://images.pexels.com/photos/6621470/pexels-photo-6621470.jpeg',
     category: 'Skincare',
     description: 'Cooling gel infused with mint for instant refreshment.',
@@ -414,7 +431,7 @@ export const products: Product[] = [
   {
     id: '50',
     name: 'SilkSweep Blending Brush',
-    price: 250,
+    price: 799,
     image: 'https://images.pexels.com/photos/7290104/pexels-photo-7290104.jpeg',
     category: 'Makeup',
     description: 'Soft-bristle brush crafted for perfect complexion blending.',
