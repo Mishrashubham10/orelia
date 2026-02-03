@@ -17,13 +17,13 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'www.pexels.com',
+        hostname: 'cdn.pixabay.com',
         port: '',
         pathname: '/**',
       },
       {
         protocol: 'https',
-        hostname: 'cdn.pixabay.com',
+        hostname: 'i.pinimg.com',
         port: '',
         pathname: '/**',
       },

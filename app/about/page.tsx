@@ -1,4 +1,4 @@
-import { Heart, Sparkles, Leaf } from 'lucide-react';
+import { Heart, Sparkles, Leaf, ShieldCheck } from 'lucide-react';
 
 const About = () => {
   return (
@@ -45,6 +45,7 @@ const About = () => {
               our values.
             </p>
           </div>
+
           <div className="text-center space-y-4">
             <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10">
               <Sparkles className="h-8 w-8 text-primary" />
@@ -57,6 +58,7 @@ const About = () => {
               exceptional results.
             </p>
           </div>
+
           <div className="text-center space-y-4">
             <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10">
               <Leaf className="h-8 w-8 text-primary" />
@@ -78,6 +80,35 @@ const About = () => {
             To empower individuals to feel confident and beautiful in their own
             skin, while championing ethical practices and environmental
             responsibility in the beauty industry.
+          </p>
+        </div>
+
+        {/* NEW: Sourcing & Branding Section */}
+        <div className="bg-primary/5 border border-primary/20 rounded-2xl p-8 md:p-12">
+          <div className="flex items-center justify-center mb-6">
+            <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-primary/10">
+              <ShieldCheck className="h-7 w-7 text-primary" />
+            </div>
+          </div>
+
+          <h2 className="text-3xl font-serif font-semibold text-center mb-4">
+            Sourcing & Branding
+          </h2>
+
+          <p className="text-muted-foreground text-center leading-relaxed max-w-3xl mx-auto">
+            Orelia operates as a trusted third-party seller, sourcing premium
+            beauty and personal care products directly from verified wholesalers
+            and distribution partners. Every product is carefully reviewed to
+            ensure authenticity, quality, and performance before reaching our
+            customers through our online platform and retail channels.
+          </p>
+
+          <p className="text-muted-foreground text-center leading-relaxed max-w-3xl mx-auto mt-4">
+            In addition to retail, we also offer custom branding and
+            private-label solutions for businesses and individuals looking to
+            create or expand their own beauty brands. From product sourcing to
+            brand-ready presentation, we help turn ideas into market-ready
+            products.
           </p>
         </div>
       </div>

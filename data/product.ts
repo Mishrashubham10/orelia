@@ -80,7 +80,7 @@ export const products: Product[] = [
     id: '9',
     name: 'Cocoa Velvet Body Polish',
     price: 1199,
-    image: 'https://images.pexels.com/photos/6621466/pexels-photo-6621466.jpeg',
+    image: 'https://i.pinimg.com/736x/e4/79/06/e479068e814cf4f1db21073aab2dc980.jpg',
     category: 'Skincare',
     description: 'Gentle exfoliating polish with cocoa husk and shea butter.',
   },
@@ -106,7 +106,7 @@ export const products: Product[] = [
     id: '12',
     name: 'GlowRoot Hair Elixir',
     price: 1599,
-    image: 'https://images.pexels.com/photos/3997378/pexels-photo-3997378.jpeg',
+    image: 'https://i.pinimg.com/1200x/4b/16/7c/4b167c84d89165d85acc0c1eac87d636.jpg',
     category: 'Skincare',
     description: 'Nutrient-rich elixir that strengthens hair from root to tip.',
   },
@@ -131,7 +131,7 @@ export const products: Product[] = [
     id: '15',
     name: 'NourishBerry Lip Mask',
     price: 799,
-    image: 'https://images.pexels.com/photos/3997376/pexels-photo-3997376.jpeg',
+    image: 'https://i.pinimg.com/1200x/de/32/47/de32471577e869f6f22b1878eeccbf35.jpg',
     category: 'Skincare',
     description:
       'Deep-restoring lip treatment infused with berry antioxidants.',
@@ -147,55 +147,6 @@ export const products: Product[] = [
       'Breathable foundation offering matte coverage with hydration.',
   },
 
-  {
-    id: '17',
-    name: 'SakuraDream Breeze Perfume',
-    price: 2799,
-    image: 'https://images.pexels.com/photos/965991/pexels-photo-965991.jpeg',
-    category: 'Fragrance',
-    description: 'A spring-inspired perfume with cherry blossom and vanilla.',
-  },
-  {
-    id: '18',
-    name: 'OceanMineral Face Cleanser',
-    price: 999,
-    image: 'https://images.pexels.com/photos/6621462/pexels-photo-6621462.jpeg',
-    category: 'Skincare',
-    description: 'Purifying gel cleanser with deep-sea mineral extracts.',
-  },
-  {
-    id: '19',
-    name: 'GoldenRay Illuminating Drops',
-    price: 1499,
-    image: 'https://images.pexels.com/photos/1340925/pexels-photo-1340925.jpeg',
-    category: 'Makeup',
-    description: 'Liquid illumination drops for a radiant golden glow.',
-  },
-  {
-    id: '20',
-    name: 'MidnightCedar Cologne',
-    price: 2999,
-    image: 'https://images.pexels.com/photos/932577/pexels-photo-932577.jpeg',
-    category: 'Fragrance',
-    description: 'Bold cologne with cedarwood and subtle smoky undertones.',
-  },
-
-  {
-    id: '21',
-    name: 'VitaminBurst Skin Oil',
-    price: 1399,
-    image: 'https://images.pexels.com/photos/6621464/pexels-photo-6621464.jpeg',
-    category: 'Skincare',
-    description: 'Skin-reviving oil powered by vitamins A, C, and E.',
-  },
-  {
-    id: '22',
-    name: 'ShadowMuse Palette',
-    price: 2199,
-    image: 'https://images.pexels.com/photos/1340925/pexels-photo-1340925.jpeg',
-    category: 'Makeup',
-    description: '12-shade palette featuring smokey, metallic and matte tones.',
-  },
 
   {
     id: '23',
@@ -209,7 +160,7 @@ export const products: Product[] = [
     id: '24',
     name: 'PureShea Body Cream',
     price: 1199,
-    image: 'https://images.pexels.com/photos/6621466/pexels-photo-6621466.jpeg',
+    image: 'https://i.pinimg.com/736x/d0/30/33/d030334f1b59d78555bc5ac0e1eb54e8.jpg',
     category: 'Skincare',
     description: 'Thick nourishing body cream enriched with pure shea.',
   },
@@ -249,15 +200,6 @@ export const products: Product[] = [
   },
 
   {
-    id: '29',
-    name: 'PeptideLift Day Cream',
-    price: 1799,
-    image: 'https://images.pexels.com/photos/6621465/pexels-photo-6621465.jpeg',
-    category: 'Skincare',
-    description:
-      'Firming cream that enhances elasticity using peptide complexes.',
-  },
-  {
     id: '30',
     name: 'FloralAmour Fine Spray',
     price: 2199,
@@ -270,7 +212,7 @@ export const products: Product[] = [
     id: '31',
     name: 'HydraSilk Face Gel',
     price: 1199,
-    image: 'https://images.pexels.com/photos/6621470/pexels-photo-6621470.jpeg',
+    image: 'https://i.pinimg.com/736x/30/c7/40/30c740b2dd2dd4b51198747929060be1.jpg',
     category: 'Skincare',
     description: 'Cooling gel moisturizer delivering a silky dew-like finish.',
   },
@@ -291,14 +233,14 @@ export const products: Product[] = [
     category: 'Fragrance',
     description: 'A blend of warm amber with soft vanilla undertones.',
   },
-  {
-    id: '34',
-    name: 'BotaniGlow Sleeping Mask',
-    price: 1599,
-    image: 'https://images.pexels.com/photos/3737583/pexels-photo-3737583.jpeg',
-    category: 'Skincare',
-    description: 'Overnight mask infused with botanical brightening extracts.',
-  },
+  // {
+  //   id: '34',
+  //   name: 'BotaniGlow Sleeping Mask',
+  //   price: 1599,
+  //   image: 'https://images.pexels.com/photos/3737583/pexels-photo-3737583.jpeg',
+  //   category: 'Skincare',
+  //   description: 'Overnight mask infused with botanical brightening extracts.',
+  // },
 
   {
     id: '35',
@@ -325,14 +267,14 @@ export const products: Product[] = [
     category: 'Skincare',
     description: 'Weightless gel toner offering moisture balance.',
   },
-  {
-    id: '38',
-    name: 'VelvetSkin Concealer Wand',
-    price: 1099,
-    image: 'https://images.pexels.com/photos/4664525/pexels-photo-4664525.jpeg',
-    category: 'Makeup',
-    description: 'Smooth concealer wand providing seamless coverage.',
-  },
+  // {
+  //   id: '38',
+  //   name: 'VelvetSkin Concealer Wand',
+  //   price: 1099,
+  //   image: 'https://images.pexels.com/photos/4664525/pexels-photo-4664525.jpeg',
+  //   category: 'Makeup',
+  //   description: 'Smooth concealer wand providing seamless coverage.',
+  // },
 
   {
     id: '39',
@@ -346,7 +288,7 @@ export const products: Product[] = [
     id: '40',
     name: 'BerryCloud Cleansing Foam',
     price: 799,
-    image: 'https://images.pexels.com/photos/6621464/pexels-photo-6621464.jpeg',
+    image: 'https://i.pinimg.com/1200x/39/ec/82/39ec822676c01d4532ada4bd57d2e74b.jpg',
     category: 'Skincare',
     description: 'Air-light foam cleanser infused with berry enzymes.',
   },
@@ -373,13 +315,13 @@ export const products: Product[] = [
     id: '43',
     name: 'HydraBalance Serum Gel',
     price: 1299,
-    image: 'https://images.pexels.com/photos/3737581/pexels-photo-3737581.jpeg',
+    image: 'https://i.pinimg.com/1200x/b2/eb/e3/b2ebe3b430e0eed20dde27bc73cf3bb7.jpg',
     category: 'Skincare',
     description: 'Cooling serum gel designed for hydration balance.',
   },
   {
     id: '44',
-    name: 'MatteBlur Compact',
+    name: 'Compact Face Powder',
     price: 1299,
     image: 'https://images.pexels.com/photos/7290089/pexels-photo-7290089.jpeg',
     category: 'Makeup',
@@ -398,7 +340,7 @@ export const products: Product[] = [
     id: '46',
     name: 'MoistureSilk Body Lotion',
     price: 999,
-    image: 'https://images.pexels.com/photos/6621466/pexels-photo-6621466.jpeg',
+    image: 'https://i.pinimg.com/1200x/de/58/d1/de58d1b2aa7aaa981aa4554cb704da59.jpg',
     category: 'Skincare',
     description: 'Silkening body lotion delivering long-lasting hydration.',
   },
@@ -435,6 +377,87 @@ export const products: Product[] = [
     image: 'https://images.pexels.com/photos/7290104/pexels-photo-7290104.jpeg',
     category: 'Makeup',
     description: 'Soft-bristle brush crafted for perfect complexion blending.',
+  },
+  {
+    id: '51',
+    name: 'LumiSkin Liquid Foundation',
+    price: 1899,
+    image: FoundationImg,
+    category: 'Makeup',
+    description:
+      'Lightweight liquid foundation with buildable coverage that evens skin tone while maintaining a natural, skin-like finish.',
+  },
+  {
+    id: '52',
+    name: 'Vitamin C Brightening Serum',
+    price: 2499,
+    image: 'https://i.pinimg.com/736x/95/ea/00/95ea00e1ebc1ba2463588cc7e1aa8f16.jpg',
+    category: 'Skincare',
+    description:
+      'High-potency vitamin C serum formulated to visibly brighten skin, reduce dark spots, and boost natural radiance.',
+  },
+  {
+    id: '53',
+    name: 'Makeup Setting Spray',
+    price: 1599,
+    image: 'https://i.pinimg.com/1200x/b5/9a/6e/b59a6e2fa8ffc61ba42a3254477df5cd.jpg',
+    category: 'Makeup',
+    description:
+      'Long-wear setting spray that locks makeup in place, controls shine, and keeps skin fresh all day.',
+  },
+  {
+    id: '54',
+    name: 'Makeup Cleansing Solution',
+    price: 899,
+    image: 'https://i.pinimg.com/1200x/79/bd/87/79bd87b5cab6a5289d7db1d354e14a67.jpg',
+    category: 'Skincare',
+    description:
+      'Gentle micellar cleansing solution that effectively removes makeup and impurities without stripping moisture.',
+  },
+  {
+    id: '55',
+    name: 'Compact Face Powder',
+    price: 1299,
+    image: 'https://i.pinimg.com/736x/c2/bc/99/c2bc99cd056ad7a20ae88e1362168aa6.jpg',
+    category: 'Makeup',
+    description:
+      'Finely milled compact powder that delivers a smooth matte finish while blurring pores and imperfections.',
+  },
+  {
+    id: '56',
+    name: 'Nail Polish Set',
+    price: 999,
+    image: 'https://i.pinimg.com/736x/4c/41/e7/4c41e7b5e8dfb27ce92b2524e6d6e756.jpg',
+    category: 'Makeup',
+    description:
+      'Vibrant nail polish set featuring chip-resistant colors with high-shine, salon-quality finish.',
+  },
+  {
+    id: '57',
+    name: 'Blush Palette',
+    price: 1499,
+    image: 'https://images.pexels.com/photos/7290210/pexels-photo-7290210.jpeg',
+    category: 'Makeup',
+    description:
+      'Multi-shade blush palette offering blendable pigments for a healthy, natural-looking flush.',
+  },
+  {
+    id: '58',
+    name: 'Sunscreen Lotion',
+    price: 1199,
+    image: 'https://i.pinimg.com/736x/3b/65/af/3b65af4500921ec8077ce5aaa1cbe3d1.jpg',
+    category: 'Skincare',
+    description:
+      'Broad-spectrum sunscreen lotion that protects against UVA & UVB rays while keeping skin hydrated and lightweight.',
+  },
+  {
+    id: '59',
+    name: 'StayLock Makeup Setting Spray – Mini',
+    price: 1599,
+    image: 'https://i.pinimg.com/736x/50/19/c8/5019c85b7a7135258c41dd1a13f7159a.jpg',
+    category: 'Makeup',
+    description:
+      'Travel-friendly makeup setting spray designed for quick touch-ups and long-lasting wear on the go.',
   },
 ];
 

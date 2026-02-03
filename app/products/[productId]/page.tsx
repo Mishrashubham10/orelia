@@ -44,7 +44,7 @@ const ProductDetail = () => {
 
       <div className="grid grid-cols-1 gap-12 lg:grid-cols-2">
         {/* Product Image */}
-        <div className="aspect-square overflow-hidden rounded-2xl bg-secondary/30">
+        <div className="relative aspect-square w-full h-full overflow-hidden rounded-2xl bg-secondary/30">
           <Image
             src={product.image}
             alt={product.name}
@@ -111,7 +111,7 @@ const ProductDetail = () => {
         </div>
       </div>
 
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 mt-6">
         <ReviewCard
           title="Amazing Quality!"
           description="The texture and finish are absolutely luxurious. Feels like a high-end brand."
